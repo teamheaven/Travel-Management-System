@@ -23,6 +23,7 @@ Features:
 
 ## Libraries
 - `mysql-connector-java-8.x.x.jar` (JDBC)
+- `jcalendar-1.4.jar`
 - Add to project `classpath`
 
 ## Resources
@@ -34,5 +35,8 @@ Features:
 ## Running the Project
 1. Import project in IDE (Eclipse/IntelliJ)
 2. Add `mysql-connector-java` to classpath
-3. Run `database.sql` in MySQL to create tables & sample data
-4. Double click `run.bat` to start application
+3. Add `jcalendar-1.4.jar` to classpath using ;
+4. Run `database.sql` in MySQL to create tables & sample data
+5. Double click `run.bat` to start application
+6. `javac -d bin -cp "libs/" src/.java` to compile the file
+7. `java -cp "bin;libs/*" LoginForm` to run the file
